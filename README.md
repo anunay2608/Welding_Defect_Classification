@@ -10,3 +10,15 @@ Welding defects that we are going to consider :
 
 ## How Deep Learning helps in Welding_Defects_Classification : 
 For the current problem statement of classification of welding defects, we have decided to use the CNN model, which is known to provide promising results with training datasets. A CNN model examines a given image piece by piece, picking up features such as edges, corners, colour variation patterns, etc, creating a feature map, with the help of which it classifies the image (in our case, the five different classes of welding defects). We intend to improve the learning and validation accuracy, converge the network, and reduce our custom loss to minimum with the increasing number of the epochs. Each point of the precision curve means the correct prediction rate for the set of train or validation images.
+
+## Dataset : 
+We trained the model on 5841 images of all the 5 welding defects includikng to the 6th class which is good weld.
+The distribution of training samples is as follows : 
+| Labels  | Sample Count |
+| ------------- | ------------- |
+| Good weld	 | 1102 |
+| Burn Through  | 892  |
+| Contamination  | 909  |
+| Misalignment  | 988  |
+| Lack of Fusion  | 1008  |
+| Lack of Penetration  | 942  |
