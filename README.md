@@ -22,3 +22,5 @@ The distribution of training samples is as follows :
 | Misalignment  | 988  |
 | Lack of Fusion  | 1008  |
 | Lack of Penetration  | 942  |
+### Drive Link for the dataset is : https://drive.google.com/file/d/1Hi49Hjy0j67d3vx-iIRngNnALe5BavrI/view?usp=sharing.
+Here the training images are already present in the separated folders corresponding to there classes.
